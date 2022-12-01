@@ -1,0 +1,20 @@
+.footername {
+    height: 50px;
+    width: 100%;
+
+    /* background-color: rgb(34, 255, 0); */
+    /* float: bottom; */
+    /* position: relative; */
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.titlename {
+    font-family: '楷体';
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 230px;
+    font-weight: 900;
+    
+}

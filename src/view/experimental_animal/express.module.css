@@ -1,0 +1,10 @@
+.imgbox .imgbox1{
+    margin-left: 1px;
+    width: 200px;
+    margin-top: 10px;
+    /* background-color: red; */
+    display: inline-block;
+}
+.imgbox{
+    line-height: 100px;
+}

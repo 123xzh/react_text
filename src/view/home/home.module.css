@@ -1,0 +1,306 @@
+.loactionbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.content1{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    background-image: linear-gradient(89deg, #0c5eff, #5094e9, #54c9d1, #d5d6d6);
+    color: azure;
+    font-family: '楷体';
+    font-size: 20px;
+    padding-left: 20px;
+}
+.content2{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    background-image: linear-gradient(89deg, #0c5eff, #5094e9, #54c9d1, #d5d6d6);
+    color: azure;
+    font-family: '楷体';
+    font-size: 15px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content21{
+    background-image: linear-gradient(41deg, #0069aa, #6496c6, #9fc6e3, #d8f9ff);
+    
+    border-left: #0c5eff 3px solid;
+    border-right: #0c5eff 3px solid;
+    border-image: -webkit-linear-gradient(#ddd,#000) 30 30;
+    border-image: -moz-linear-gradient(#ddd,#000) 30 30;
+    border-image: linear-gradient(#ddd,rgb(0, 88, 240)) 30 30;
+
+}
+.content2>h3{
+   color: #eaf3f9;
+}
+h4{
+   color: #f2faff;
+   font-weight: 900px;
+}
+
+h4:hover{
+    cursor: pointer;
+color: #e95050;
+}
+.content div:nth-child(1) {
+    /* padding: 5px; */
+
+    flex: 1;
+    /* height: 50px; */
+    /* width: 400px; */
+    /* background-color: pink; */
+    /* width: 30%; */
+}
+
+.content div:nth-child(2) {
+    /* padding: 5px; */
+    flex: 2;
+    /* height: 50px; */
+    /* width: 400px; */
+    /* background-color: rgb(77, 126, 78); */
+    /* width: 20%; */
+    /* border-left: #0c5eff 3px solid; */
+    /* background-color: rgb(255, 227, 192); */
+
+
+}
+
+.content div:nth-child(3) {
+    /* padding: 5px; */
+
+    flex: 1;
+    /* height: 50px; */
+    /* width: 400px; */
+    /* background-color: rgb(255, 227, 192); */
+    /* width: 30%; */
+
+}
+
+.footercontent {
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    overflow: hidden;
+
+}
+
+.box {
+    width: 300px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 200px 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.row {
+    height: 20px;
+    margin: 5px auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btumm {
+    text-align: center;
+    padding-top: 50%;
+}
+
+.btumm {
+    color: #1d5983;
+    size: 2;
+}
+
+.banner {
+    margin-top: 400px;
+    width: 904px;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 904px;
+}
+
+.banner ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.banner ul li img {
+    width: 200px;
+    height: 150px;
+}
+
+.banner img {
+    margin-left: 30px;
+    /* width: 200px;
+    height: 150px; */
+}
+
+
+
+/* .preview {
+    cursor: pointer;
+} */
+
+/* 预览器样式 */
+.previewntainer {
+    display: none;
+    /* 知识点：fixed 定位 */
+    /* 课件链接：https://3yya.com/courseware/chapter/106#fixed */
+    /* 脱离正常文档流，并占满整个屏幕 */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    /* 知识点：rgba 单位 */
+    /* 课件链接：https://3yya.com/courseware/chapter/115#RGBA */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* 黑色，不透明度 0.6 */
+
+    /* 知识点：flex 布局 */
+    /* 课件链接：https://3yya.com/courseware/chapter/72 */
+    /* 子元素水平上下居中 */
+    /* display: flex; */
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+    /* 水平居中 */
+    z-index: 100;
+
+    /* 小手 */
+    cursor: pointer;
+}
+
+/* 预览器内图片 */
+.previewntainer .image1 {
+    /* display: none; */
+    width: 60%;
+    height: 60%;
+    /* margin-top: 240PX; */
+    /* z-index: 99; */
+    min-width: 50px;
+    min-height: 50px;
+    margin: 100PX auto;
+    background-color: aqua;
+
+    object-fit: contain;
+}
+.newinfo{
+    /* text-indent:2em; */
+   padding-left: 20px;
+   width: 90%;
+   /* height: 200px;, */
+   font-size: 10px;
+   overflow:hidden;   
+   text-overflow:ellipsis;  
+   white-space: normal;  
+   display:-webkit-box;  
+   -webkit-box-orient:vertical;  
+   -webkit-line-clamp:8;/*内容限制的行数 需要几行写几就行*/ 
+}
+.newinfo1{
+    /* text-indent:2em; */
+    padding-left: 0px;
+    width: 90%;
+    /* height: 200px;, */
+    font-size: 10px;
+    overflow:hidden;   
+    text-overflow:ellipsis;  
+    white-space: normal;  
+    display:-webkit-box;  
+    -webkit-box-orient:vertical;  
+    -webkit-line-clamp:8;/*内容限制的行数 需要几行写几就行*/ 
+}
+.loadingbox{
+    margin-left: 40%;
+    width: 20%;
+}
+.infolocabox1:hover{
+color: red;
+cursor: pointer;
+}
+.infoloca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.iconhover{
+    margin-left: 30px;
+    margin-top: 10px;
+    border-bottom: #0c5eff 1px dashed ;
+    width: 150px;
+}
+.iconhover:hover{
+    cursor: pointer;
+color: #0c5eff;
+}
+.content13{
+    /* padding-left: 20px; */
+    /* background-color: rgb(21, 226, 175); */
+    line-height: 30px;
+    height: 340px;
+    background-image: linear-gradient(261deg, #0069aa, #6496c6, #9fc6e3, #d8f9ff);
+    /* background-image: linear-gradient(269deg, #5094e9, #feffff); */
+}
+.content132>img{
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* padding-left: 20px; */
+    /* background-color: rgb(21, 226, 175);
+    line-height: 30px; */
+}
+.content132>h1{
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    margin-top: -32% ;
+    left:18%;
+    font-family: '楷体';
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: #0c5eff;
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    /* width: 170px;
+    margin-left: 20px;
+    margin-top: 20px; */
+    /* padding-left: 20px; */
+    /* background-color: rgb(21, 226, 175);
+    line-height: 30px; */
+}
+.content131{
+    margin-left: 20px;
+}

@@ -1,0 +1,30 @@
+.newcenterinfo {
+    width: 100%;
+    height: 400px;
+    /* background-color: aquamarine; */
+    padding-left: 30px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.newcenterinfo>ul li>.newcenterinfo1 {
+    margin-left: -50px;
+}
+.newcenterinfo>ul li>.newcenterinfo1:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.newcenterinfo>ul li {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-bottom: #0c5eff 1px dashed;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%;
+    height: 400px;
+    background-color: aquamarine;
+    padding-left: 30px; */
+}

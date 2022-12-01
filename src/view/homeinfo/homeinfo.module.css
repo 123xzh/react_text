@@ -1,0 +1,112 @@
+.loaction {
+    display: flex;
+    flex-direction: column;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content1 .leftbox {
+    flex: 1;
+    height: 450px;
+    /* float: right; */
+    /* width: 100px; */
+    border: 1px solid rgb(0, 140, 255);
+    margin: 10px;
+}
+
+.content1 .rightbox{
+    /* padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px; */
+    
+    margin: 10px;
+    flex: 3;
+    height: 100%;
+    border: 1px solid rgb(0, 157, 255);
+    /* width: 200px; */
+    /* background-color: rgb(77, 126, 78); */
+}
+.content1 .righttopboxinfo{
+    /* text-indent: 2em; */
+    /* padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px; */
+    
+    margin: 10px;
+    flex: 3;
+    height: 100%;
+    /* border: 1px solid rgb(0, 157, 255); */
+    /* width: 200px; */
+    /* background-color: rgb(77, 126, 78); */
+}
+
+.footercontent1 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    /* background-color: blue; */
+}
+
+.righttopbox{
+    /* position: fixed; */
+    height: 30px;
+    width: 100%;
+    background-color: rgb(105, 187, 223);
+    padding-left: 10px;
+    padding-top: 4px;
+
+}
+.lefttopbox{
+    
+    /* position: fixed; */
+    /* margin: 10px; */
+    height: 30px;
+    width: 100%;
+    background-color: rgb(105, 187, 223);
+    padding: 5px;
+}
+.imgbox>img{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 150px;
+}
+
+.logobox{
+    height: 80px;
+    padding-left: 45px;
+    padding-top: 15px;
+    /* background-color: aqua;
+     */
+     background-image: linear-gradient(180deg, #e3e4f0, #7286a0, #95b3d4)
+}
+.logobox>h1{
+    color: #1763f1;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 900;
+}
+.categroug{
+    border-bottom: #0c5eff 1px dashed ;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.categroug:hover{
+    color: #ff0c0c;
+    border-bottom: #ff0c0c 1px dashed ;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.infobox1{
+    /* line-height: 20px; */
+}
+.backhome:hover{
+    color: red;
+    cursor: pointer;
+}

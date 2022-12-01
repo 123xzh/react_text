@@ -1,0 +1,17 @@
+.Relatedhe{
+    height: 100%;
+    /* background-color: red; */
+}
+.Relatedinfo{
+    /* margin-left: 200px; */
+    width: 500px;
+    height: 60px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Relatedinfo1{
+    /* float: right; */
+    /* margin-left: 350px; */
+}
